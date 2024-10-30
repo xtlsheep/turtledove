@@ -146,6 +146,14 @@ navigator.protectedAudience && navigator.protectedAudience.queryFeatureSupport(
     "selectableReportingIds")
 ```
 
+## Trusted Signals KVv2 Support
+
+From context of a web page:
+```
+navigator.protectedAudience && navigator.protectedAudience.queryFeatureSupport(
+    "trustedSignalsKVv2")
+```
+
 ## Getting browser-side detectable features as an object
 Sometimes it's desirable to get status of all features detectable via `queryFeatureSupport` in a
 forward-compatible way. Sufficiently recent versions provide this functionality via
